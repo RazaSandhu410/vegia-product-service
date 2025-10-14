@@ -1,0 +1,246 @@
+﻿====================================================================
+                      VEGIA PRODUCT SERVICE
+                      COMPLETE HELP GUIDE
+====================================================================
+
+📅 Created: 10/15/2025 01:22:23
+👨‍💻 Developer: Raza Sandhu (RazaSandhu410)
+📧 Email: razasandhu410@gmail.com
+🌐 GitHub: https://github.com/RazaSandhu410/vegia-product-service
+
+====================================================================
+                       TABLE OF CONTENTS
+====================================================================
+
+1.  QUICK START COMMANDS
+2.  PROJECT STRUCTURE
+3.  GIT COMMANDS CHEATSHEET
+4.  DEVELOPMENT WORKFLOW
+5.  TROUBLESHOOTING GUIDE
+6.  USEFUL LINKS
+7.  CONTACT INFORMATION
+
+====================================================================
+                      1. QUICK START COMMANDS
+====================================================================
+
+📍 NAVIGATION:
+> cd D:\VEGIAPROJECTS\SERVICES\PRODUCTSERVICE
+
+🏃‍♂️ RUN PROJECT:
+> cd Vegia.ProductService.API
+> dotnet run
+📌 API: https://localhost:7000
+📌 Swagger: https://localhost:7000/swagger
+
+🧪 RUN TESTS:
+> dotnet test
+
+🔨 BUILD PROJECT:
+> dotnet build
+> dotnet publish -c Release
+
+====================================================================
+                      2. PROJECT STRUCTURE
+====================================================================
+
+D:\VEGIAPROJECTS\SERVICES\PRODUCTSERVICE\
+├── 🎯 Vegia.ProductService.API/          (Web API - Presentation)
+│   ├── Controllers/          → API Endpoints
+│   ├── Models/               → Request/Response Models
+│   ├── ViewModels/           → UI Models
+│   ├── Program.cs            → Main Entry Point
+│   └── appsettings.json      → Configuration
+├── ⚙️ Vegia.ProductService.BLL/          (Business Logic)
+│   ├── Interfaces/           → Service Contracts
+│   ├── Services/             → Business Logic
+│   └── Validators/           → Input Validation
+├── 💾 Vegia.ProductService.DAL/          (Data Access)
+│   ├── Contexts/             → DbContext (ProductDbContext.cs)
+│   ├── Configurations/       → EF Configurations
+│   └── Repositories/         → Data Repositories
+├── 🔮 Vegia.ProductService.Core/         (Domain Layer)
+│   └── Entities/             → Domain Models
+│       ├── Product.cs
+│       ├── Category.cs
+│       ├── Vendor.cs
+│       ├── ProductImage.cs
+│       └── ProductVendor.cs
+├── 📊 Vegia.ProductService.Reports/      (Reporting)
+└── 🧪 Vegia.ProductService.Tests/        (Testing)
+
+====================================================================
+                   3. GIT COMMANDS CHEATSHEET
+====================================================================
+
+📦 INITIAL SETUP (Already Done):
+> git init
+> git remote add origin https://github.com/RazaSandhu410/vegia-product-service.git
+> git branch -M main
+
+🔄 DAILY WORKFLOW:
+> git status                          # Check changes
+> git add .                          # Stage all changes
+> git commit -m ""description""      # Commit changes
+> git push origin main              # Push to GitHub
+
+🌿 BRANCH MANAGEMENT:
+> git checkout -b feature/name      # Create new feature branch
+> git branch                        # List branches
+> git checkout branch-name          # Switch branch
+> git branch -d branch-name         # Delete branch
+
+📥 SYNC WITH GITHUB:
+> git pull origin main              # Pull latest changes
+> git fetch --all                   # Fetch all updates
+> git log --oneline                 # View commit history
+
+🚀 PUSH NEW FEATURES:
+> git add .
+> git commit -m ""feat: add new feature""
+> git push -u origin feature/name
+
+====================================================================
+                    4. DEVELOPMENT WORKFLOW
+====================================================================
+
+🔄 TYPICAL DEVELOPMENT CYCLE:
+
+1. CREATE FEATURE BRANCH:
+   > git checkout -b feature/product-search
+
+2. MAKE CHANGES:
+   - Add/Modify code in appropriate layers
+   - Follow Clean Architecture principles
+   - Write tests for new functionality
+
+3. TEST LOCALLY:
+   > dotnet build
+   > dotnet test
+   > dotnet run (test API endpoints)
+
+4. COMMIT AND PUSH:
+   > git add .
+   > git commit -m ""feat: add product search""
+   > git push origin feature/product-search
+
+5. CREATE PULL REQUEST:
+   - Go to GitHub repository
+   - Click ""Pull Requests"" → ""New Pull Request""
+   - Select feature branch → Create PR
+   - Wait for review and merge
+
+🏗️ CLEAN ARCHITECTURE RULES:
+
+✅ CORE should not reference any other project
+✅ DAL can reference CORE only
+✅ BLL can reference CORE and DAL
+✅ API can reference all projects
+✅ TESTS can reference any project
+
+====================================================================
+                   5. TROUBLESHOOTING GUIDE
+====================================================================
+
+🚨 COMMON ISSUES & SOLUTIONS:
+
+❌ ""Git not recognized"":
+   - Install Git from https://git-scm.com/
+   - Restart PowerShell/Command Prompt
+
+❌ ""Connection string issues"":
+   - Check SQL Server is running
+   - Update appsettings.json connection string
+   - Add ""TrustServerCertificate=true;""
+
+❌ ""NuGet package restore failed"":
+   > dotnet clean
+   > dotnet restore
+   > Delete bin/obj folders and restore
+
+❌ ""Migration errors"":
+   > dotnet ef migrations remove
+   > dotnet ef migrations add InitialCreate
+   > dotnet ef database update
+
+❌ ""Port already in use"":
+   - Change port in Properties/launchSettings.json
+   - Or run: netstat -ano | findstr :7000
+   - Then: taskkill /PID [PID] /F
+
+❌ ""Database connection failed"":
+   - Verify SQL Server instance name
+   - Check Windows Authentication or SQL Auth
+   - Ensure database exists or can be created
+
+🔧 USEFUL DOTNET COMMANDS:
+
+> dotnet --version                  # Check .NET version
+> dotnet new list                   # List available templates
+> dotnet ef --version              # Check Entity Framework tools
+> dotnet add reference ../Project  # Add project reference
+> dotnet watch run                 # Run with hot reload
+
+====================================================================
+                       6. USEFUL LINKS
+====================================================================
+
+🔗 PROJECT LINKS:
+- GitHub Repository: https://github.com/RazaSandhu410/vegia-product-service
+- API Documentation: https://localhost:7000/swagger (when running)
+
+📚 LEARNING RESOURCES:
+- .NET 8 Documentation: https://docs.microsoft.com/en-us/dotnet/core/
+- Entity Framework: https://docs.microsoft.com/en-us/ef/core/
+- Clean Architecture: https://github.com/jasontaylordev/CleanArchitecture
+- Git Handbook: https://guides.github.com/introduction/git-handbook/
+
+🛠️ TOOLS DOWNLOAD:
+- Visual Studio: https://visualstudio.microsoft.com/
+- VS Code: https://code.visualstudio.com/
+- SQL Server: https://www.microsoft.com/en-us/sql-server/
+- Git: https://git-scm.com/downloads
+- Postman: https://www.postman.com/downloads/
+
+====================================================================
+                   7. CONTACT INFORMATION
+====================================================================
+
+👨‍💻 PRIMARY DEVELOPER:
+- Name: Raza Sandhu
+- GitHub: RazaSandhu410
+- Email: razasandhu410@gmail.com
+
+📄 PROJECT DETAILS:
+- Project: Vegia Product Service
+- Technology: .NET 8, Clean Architecture
+- Database: SQL Server
+- Architecture: Multi-layer with Domain-Driven Design
+
+🔧 TECHNICAL STACK:
+- Backend: ASP.NET Core 8 Web API
+- ORM: Entity Framework Core 8
+- Database: SQL Server
+- Testing: xUnit, Moq
+- Documentation: Swagger/OpenAPI
+- Version Control: Git/GitHub
+
+====================================================================
+                     IMPORTANT REMINDERS
+====================================================================
+
+💡 Always create feature branches for new work
+💡 Write tests for new functionality
+💡 Follow Clean Architecture principles
+💡 Keep commits small and descriptive
+💡 Update documentation when changing features
+💡 Use meaningful commit messages
+💡 Pull latest changes before starting work
+💡 Verify builds and tests before pushing
+
+====================================================================
+                    END OF HELP DOCUMENT
+====================================================================
+
+This document was generated automatically for Vegia Product Service.
+Last updated: 10/15/2025 01:22:23

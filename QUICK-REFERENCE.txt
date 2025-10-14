@@ -1,0 +1,53 @@
+﻿╔══════════════════════════════════════════════════╗
+║              VEGIA PRODUCT SERVICE               ║
+║                 QUICK REFERENCE                  ║
+╚══════════════════════════════════════════════════╝
+
+📍 PROJECT LOCATION:
+D:\VEGIAPROJECTS\SERVICES\PRODUCTSERVICE
+
+🚀 QUICK START:
+cd Vegia.ProductService.API
+dotnet run
+→ https://localhost:7000
+
+🔧 ESSENTIAL COMMANDS:
+dotnet build        → Build solution
+dotnet test         → Run all tests
+dotnet run          → Run API
+git status          → Check changes
+git add .           → Stage files
+git commit -m ""msg"" → Commit changes
+git push            → Push to GitHub
+
+🏗️ ARCHITECTURE:
+API    → Controllers, HTTP
+BLL    → Business Logic, Services
+DAL    → Database, Repositories
+Core   → Entities, Interfaces
+Tests  → Unit & Integration tests
+
+📁 KEY FILES:
+Program.cs          → App entry point
+ProductDbContext.cs → Database context
+appsettings.json    → Configuration
+.gitignore          → Git exclude rules
+README.md           → Project documentation
+
+🐛 TROUBLESHOOTING:
+• Git issues? → Install Git from git-scm.com
+• Build fails? → dotnet clean && dotnet restore
+• DB issues? → Check connection string
+• Port busy? → Change in launchSettings.json
+
+📞 HELP:
+• Full Documentation: DOCUMENTATION.md
+• API Reference: API-ENDPOINTS.md
+• Dev Guide: DEVELOPMENT-GUIDE.md
+• This File: PROJECT-HELP.txt
+
+🔗 GITHUB:
+https://github.com/RazaSandhu410/vegia-product-service
+
+👤 DEVELOPER:
+Raza Sandhu (RazaSandhu410)
