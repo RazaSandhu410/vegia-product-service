@@ -1,4 +1,19 @@
+<<<<<<< HEAD
 ﻿## .NET Git Ignore
+=======
+﻿# .NET
+**/bin/
+**/obj/
+**/.vs/
+**/*.user
+**/*.suo
+**/*.userosscache
+**/packages/
+*.nupkg
+*.swp
+
+# Build results
+>>>>>>> b2d28d0e9426f4424d9591201ac71a59d61df441
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
@@ -16,6 +31,7 @@ bld/
 
 # Visual Studio
 .vs/
+<<<<<<< HEAD
 .vscode/
 *.user
 *.userosscache
@@ -39,3 +55,17 @@ msbuild.wrn
 
 # Azure
 [Aa]zure/
+=======
+*.vcxproj.user
+
+# App settings (keep template but not secrets)
+appsettings.Development.json
+!appsettings.json
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
+>>>>>>> b2d28d0e9426f4424d9591201ac71a59d61df441
