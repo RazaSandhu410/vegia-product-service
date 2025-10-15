@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B9C0BC2E-F4B5-4408-A09A-4AE77FC6D87F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductService", "ProductService", "{E218B3CE-98CF-46D0-B94D-D729EF8E6A0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vegia.ProductService.API", "Services\ProductService\Vegia.ProductService.API\Vegia.ProductService.API.csproj", "{7DC7881B-536B-4BF3-89A4-93724302099C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vegia.ProductService.BLL", "Services\ProductService\Vegia.ProductService.BLL\Vegia.ProductService.BLL.csproj", "{D79BE871-ACBD-457F-BC0B-190601D56444}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vegia.ProductService.Core", "Services\ProductService\Vegia.ProductService.Core\Vegia.ProductService.Core.csproj", "{530145DD-63AD-4FE1-AC8D-BE82C41BD395}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vegia.ProductService.DAL", "Services\ProductService\Vegia.ProductService.DAL\Vegia.ProductService.DAL.csproj", "{54302341-F669-43A4-8BE5-8F9A104E8DC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vegia.ProductService.Reports", "Services\ProductService\Vegia.ProductService.Reports\Vegia.ProductService.Reports.csproj", "{59BDC463-8CAA-4907-8E62-42F272A0ACDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vegia.ProductService.Tests", "Services\ProductService\Vegia.ProductService.Tests\Vegia.ProductService.Tests.csproj", "{2A99DA2F-DD21-4255-85F9-653B044B77DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DC7881B-536B-4BF3-89A4-93724302099C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DC7881B-536B-4BF3-89A4-93724302099C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DC7881B-536B-4BF3-89A4-93724302099C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DC7881B-536B-4BF3-89A4-93724302099C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D79BE871-ACBD-457F-BC0B-190601D56444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D79BE871-ACBD-457F-BC0B-190601D56444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D79BE871-ACBD-457F-BC0B-190601D56444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D79BE871-ACBD-457F-BC0B-190601D56444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{530145DD-63AD-4FE1-AC8D-BE82C41BD395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{530145DD-63AD-4FE1-AC8D-BE82C41BD395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{530145DD-63AD-4FE1-AC8D-BE82C41BD395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{530145DD-63AD-4FE1-AC8D-BE82C41BD395}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54302341-F669-43A4-8BE5-8F9A104E8DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54302341-F669-43A4-8BE5-8F9A104E8DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54302341-F669-43A4-8BE5-8F9A104E8DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54302341-F669-43A4-8BE5-8F9A104E8DC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59BDC463-8CAA-4907-8E62-42F272A0ACDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59BDC463-8CAA-4907-8E62-42F272A0ACDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59BDC463-8CAA-4907-8E62-42F272A0ACDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59BDC463-8CAA-4907-8E62-42F272A0ACDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A99DA2F-DD21-4255-85F9-653B044B77DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A99DA2F-DD21-4255-85F9-653B044B77DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A99DA2F-DD21-4255-85F9-653B044B77DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A99DA2F-DD21-4255-85F9-653B044B77DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E218B3CE-98CF-46D0-B94D-D729EF8E6A0A} = {B9C0BC2E-F4B5-4408-A09A-4AE77FC6D87F}
+		{7DC7881B-536B-4BF3-89A4-93724302099C} = {E218B3CE-98CF-46D0-B94D-D729EF8E6A0A}
+		{D79BE871-ACBD-457F-BC0B-190601D56444} = {E218B3CE-98CF-46D0-B94D-D729EF8E6A0A}
+		{530145DD-63AD-4FE1-AC8D-BE82C41BD395} = {E218B3CE-98CF-46D0-B94D-D729EF8E6A0A}
+		{54302341-F669-43A4-8BE5-8F9A104E8DC1} = {E218B3CE-98CF-46D0-B94D-D729EF8E6A0A}
+		{59BDC463-8CAA-4907-8E62-42F272A0ACDE} = {E218B3CE-98CF-46D0-B94D-D729EF8E6A0A}
+		{2A99DA2F-DD21-4255-85F9-653B044B77DC} = {E218B3CE-98CF-46D0-B94D-D729EF8E6A0A}
+	EndGlobalSection
+EndGlobal

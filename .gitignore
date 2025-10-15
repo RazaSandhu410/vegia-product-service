@@ -1,0 +1,41 @@
+﻿## .NET Git Ignore
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet
+[Nn]u[Gg]et/
+*.nupkg
+.nuget/
+packages/
+packages.lock.json
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Build results
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Azure
+[Aa]zure/
