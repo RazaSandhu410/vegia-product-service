@@ -22,7 +22,38 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Include="obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net8.0\Vegia.ProductService.Core.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0\Vegia.ProductService.Core.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net8.0\Vegia.ProductService.Core.deps.json" />
+    <Content Include="obj\Debug\net8.0\Vegia.ProductService.Core.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net8.0\Vegia.ProductService.Core.sourcelink.json" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\Vegia.ProductService.Core.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Entities\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net8.0\Vegia.ProductService.Core.dll" />
+    <None Include="bin\Debug\net8.0\Vegia.ProductService.Core.pdb" />
+    <None Include="obj\Debug\net8.0\refint\Vegia.ProductService.Core.dll" />
+    <None Include="obj\Debug\net8.0\ref\Vegia.ProductService.Core.dll" />
+    <None Include="obj\Debug\net8.0\Vegia.ProductService.Core.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net8.0\Vegia.ProductService.Core.assets.cache" />
+    <None Include="obj\Debug\net8.0\Vegia.ProductService.Core.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net8.0\Vegia.ProductService.Core.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net8.0\Vegia.ProductService.Core.dll" />
+    <None Include="obj\Debug\net8.0\Vegia.ProductService.Core.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net8.0\Vegia.ProductService.Core.pdb" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\Vegia.ProductService.Core.csproj.nuget.g.props" />
+    <None Include="obj\Vegia.ProductService.Core.csproj.nuget.g.targets" />
   </ItemGroup>
 
   <ItemGroup>
