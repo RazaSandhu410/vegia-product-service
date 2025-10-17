@@ -7,6 +7,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net8.0\Vegia.ProductService.DAL.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0\Vegia.ProductService.DAL.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net8.0\Vegia.ProductService.DAL.deps.json" />
+    <Content Include="bin\Debug\net8.0\Vegia.ProductService.DAL.runtimeconfig.json" />
+    <Content Include="obj\Debug\net8.0\Vegia.ProductService.DAL.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net8.0\Vegia.ProductService.DAL.sourcelink.json" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\Vegia.ProductService.DAL.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.10">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
@@ -26,6 +41,28 @@
     <Folder Include="Configurations\" />
     <Folder Include="Interfaces\" />
     <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net8.0\Vegia.ProductService.Core.dll" />
+    <None Include="bin\Debug\net8.0\Vegia.ProductService.Core.pdb" />
+    <None Include="bin\Debug\net8.0\Vegia.ProductService.DAL.dll" />
+    <None Include="bin\Debug\net8.0\Vegia.ProductService.DAL.pdb" />
+    <None Include="obj\Debug\net8.0\refint\Vegia.ProductService.DAL.dll" />
+    <None Include="obj\Debug\net8.0\ref\Vegia.ProductService.DAL.dll" />
+    <None Include="obj\Debug\net8.0\Vegia.Pr.4AC5E99B.Up2Date" />
+    <None Include="obj\Debug\net8.0\Vegia.ProductService.DAL.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net8.0\Vegia.ProductService.DAL.assets.cache" />
+    <None Include="obj\Debug\net8.0\Vegia.ProductService.DAL.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net8.0\Vegia.ProductService.DAL.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net8.0\Vegia.ProductService.DAL.dll" />
+    <None Include="obj\Debug\net8.0\Vegia.ProductService.DAL.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net8.0\Vegia.ProductService.DAL.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net8.0\Vegia.ProductService.DAL.pdb" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\Vegia.ProductService.DAL.csproj.EntityFrameworkCore.targets" />
+    <None Include="obj\Vegia.ProductService.DAL.csproj.nuget.g.props" />
+    <None Include="obj\Vegia.ProductService.DAL.csproj.nuget.g.targets" />
   </ItemGroup>
 
 </Project>

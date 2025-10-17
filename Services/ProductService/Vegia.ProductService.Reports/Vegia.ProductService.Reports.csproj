@@ -7,6 +7,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net8.0\Vegia.ProductService.Reports.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0\Vegia.ProductService.Reports.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net8.0\Vegia.ProductService.Reports.deps.json" />
+    <Content Include="obj\Debug\net8.0\Vegia.ProductService.Reports.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net8.0\Vegia.ProductService.Reports.sourcelink.json" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\Vegia.ProductService.Reports.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Vegia.ProductService.DAL\Vegia.ProductService.DAL.csproj" />
   </ItemGroup>
 
@@ -14,6 +28,28 @@
     <Folder Include="Interfaces\" />
     <Folder Include="Services\" />
     <Folder Include="Templates\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net8.0\Vegia.ProductService.Core.dll" />
+    <None Include="bin\Debug\net8.0\Vegia.ProductService.Core.pdb" />
+    <None Include="bin\Debug\net8.0\Vegia.ProductService.DAL.dll" />
+    <None Include="bin\Debug\net8.0\Vegia.ProductService.DAL.pdb" />
+    <None Include="bin\Debug\net8.0\Vegia.ProductService.Reports.dll" />
+    <None Include="bin\Debug\net8.0\Vegia.ProductService.Reports.pdb" />
+    <None Include="obj\Debug\net8.0\refint\Vegia.ProductService.Reports.dll" />
+    <None Include="obj\Debug\net8.0\ref\Vegia.ProductService.Reports.dll" />
+    <None Include="obj\Debug\net8.0\Vegia.Pr.D4708E40.Up2Date" />
+    <None Include="obj\Debug\net8.0\Vegia.ProductService.Reports.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net8.0\Vegia.ProductService.Reports.assets.cache" />
+    <None Include="obj\Debug\net8.0\Vegia.ProductService.Reports.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net8.0\Vegia.ProductService.Reports.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net8.0\Vegia.ProductService.Reports.dll" />
+    <None Include="obj\Debug\net8.0\Vegia.ProductService.Reports.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net8.0\Vegia.ProductService.Reports.pdb" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\Vegia.ProductService.Reports.csproj.nuget.g.props" />
+    <None Include="obj\Vegia.ProductService.Reports.csproj.nuget.g.targets" />
   </ItemGroup>
 
 </Project>
